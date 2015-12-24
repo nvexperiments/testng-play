@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="TestNG" verbose="6" parallel="false" thread-count="2"
+       data-provider-thread-count="3">
+    <test name="Injection">
+        <classes>
+            <class name="edu.nitin.testnp.issue112.CasesToFix"/>
+        </classes>
+    </test>
+</suite>

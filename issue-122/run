@@ -1,0 +1,6 @@
+#!/bin/sh
+export GRADLE_OPTS="-Dorg.gradle.daemon=true"
+NAME=issue-122
+./gradlew clean assemble installDist
+./build/install/${NAME}/bin/${NAME} $@
+

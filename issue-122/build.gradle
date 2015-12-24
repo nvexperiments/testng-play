@@ -1,0 +1,29 @@
+apply plugin: 'application'
+apply plugin: 'maven'
+
+mainClassName = "edu.nitin.testnp.issue112.Main"
+
+test {
+    testLogging.showStandardStreams = true
+    useTestNG() {
+        suites 'src/test/resources/testng.xml'
+    }
+}
+
+dependencies {
+    testCompile "org.testng:testng:${testngVersion}"
+}
+
+repositories {
+    mavenCentral()
+}
+
+allprojects {
+
+    repositories {
+        mavenCentral()
+        jcenter()
+        mavenLocal()
+    }
+}
+
