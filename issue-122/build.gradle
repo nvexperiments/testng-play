@@ -1,7 +1,7 @@
 apply plugin: 'application'
 apply plugin: 'maven'
 
-mainClassName = "edu.nitin.testnp.issue112.Main"
+mainClassName = "Main"
 
 test {
     testLogging.showStandardStreams = true

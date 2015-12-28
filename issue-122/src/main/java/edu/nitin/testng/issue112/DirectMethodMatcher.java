@@ -1,4 +1,4 @@
-package edu.nitin.testnp.issue112;
+package edu.nitin.testng.issue112;
 
 import java.lang.reflect.Method;
 

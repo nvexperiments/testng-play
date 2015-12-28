@@ -4,7 +4,8 @@
        data-provider-thread-count="3">
     <test name="Injection">
         <classes>
-            <class name="edu.nitin.testnp.issue112.CasesToFix"/>
+            <class name="edu.nitin.testng.issue112.CasesToFix"/>
+            <class name="edu.nitin.testng.issue920.TestClass001"/>
         </classes>
     </test>
 </suite>

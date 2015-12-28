@@ -1,4 +1,4 @@
-package edu.nitin.testnp.issue112;
+package edu.nitin.testng.issue112;
 
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
