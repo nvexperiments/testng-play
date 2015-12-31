@@ -12,6 +12,8 @@ test {
 
 dependencies {
     compile "org.testng:testng:${testngVersion}"
+    compile 'com.google.inject:guice:4.0'
+
 }
 
 repositories {
