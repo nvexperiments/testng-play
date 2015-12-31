@@ -11,7 +11,7 @@ test {
 }
 
 dependencies {
-    testCompile "org.testng:testng:${testngVersion}"
+    compile "org.testng:testng:${testngVersion}"
 }
 
 repositories {
